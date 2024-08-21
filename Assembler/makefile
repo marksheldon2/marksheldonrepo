@@ -5,4 +5,4 @@ run:
 	./a.out abc.s output.dat
 
 clean:
-	rm ./a.out output.dat
+	rm a.out output.dat
