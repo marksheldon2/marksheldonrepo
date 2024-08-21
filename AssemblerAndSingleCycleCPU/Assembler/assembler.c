@@ -46,20 +46,22 @@ int main(int argc, char* argv[]) {
  *              3 = invalid format
 ****************************************/
 void printError(int code, int lineNum, char* line) {
-    if (code == 1) {
-        printf("Error: invalid operation\n\t%d | %s\n\n", lineNum, line);
-    }
-    else if (code == 2) {
-        printf("Error: invalid format\n\t%d | %s\n\n", lineNum, line);
-    }
-    else if (code == 3) {
-        printf("Error: invalid register number\n\t%d | %s\n\n", lineNum, line);
-    }
-    else if (code == 4) {
-        printf("Error: invalid address\n\t%d | %s\n\n", lineNum, line);
-    }
-    else {
-        printf("Error: unknown error");
+    switch(code) {
+        case 1:
+            printf("Error: invalid operation\n\t%d | %s\n\n", lineNum, line);
+            break;
+        case 2:
+            printf("Error: invalid format\n\t%d | %s\n\n", lineNum, line);
+            break;
+        case 3:
+            printf("Error: invalid register number\n\t%d | %s\n\n", lineNum, line);
+            break;
+        case 4:
+            printf("Error: invalid address\n\t%d | %s\n\n", lineNum, line);
+            break;
+        default:
+            printf("Error: unknown error");
+            break;
     }
 }
 
