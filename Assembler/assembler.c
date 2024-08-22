@@ -44,6 +44,7 @@ int main(int argc, char* argv[]) {
  *              1 = invalid operation
  *              2 = invalid register
  *              3 = invalid format
+                4 = invalid address
 ****************************************/
 void printError(int code, int lineNum, char* line) {
     switch(code) {
