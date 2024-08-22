@@ -1,8 +1,10 @@
 # Multiplayer Configurable Tic-Tac-Toe
 
+
 ## Project Overview
 
 This project was a semester-long implementation of tic-tac-toe, allowing the user to select the number of players, size of the board, and number of tokens in a row to win. In addition to the java program, I've included `MultiplayerTicTacToe/TicTacToeGui/report.pdf` which outlines the theoretical planning for the project. Included in it are the list of requirements I created, class and activity diagrams, and planned test cases. Everything in this project is my own work aside from the rudimentary JavaSwing GUI which was provided by my professor. 
+
 
 ## Technical Overview
 
@@ -12,6 +14,7 @@ This project was a semester-long implementation of tic-tac-toe, allowing the use
 - GUI in JavaSwing (provided by professor, I did not produce this)
 - Class and activity diagrams, and test cases are provided in `report.pdf`
 - Functional and non-functional requirements are also listed in `report.pdf`
+
 
 ## Execution Instructions
 
