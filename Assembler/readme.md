@@ -1,13 +1,9 @@
 # Mock Assembler
 
-
 ## Project Overview
-
-This C program evaluates assembly instructions (`add`, `sub`, `and`, `beq`, `lw`, `sw`, and `j`), performs their given operation, and places the binary result in a .dat file. It does so primarily using masks and bitshifting
-
+This C program evaluates assembly instructions (`add`, `sub`, `and`, `beq`, `lw`, `sw`, and `j`), performs their given operation, and places the binary result in a .dat file. It does so primarily using masks and bitshifting. This project was a solo effort and all code is my own.
 
 ## Execution Instructions
-
 To start, you'll need to clone this repository into your current directory:
 
 ```console
